@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "🐕 dogeplusplus"
+subtitle: |
+  Deep Learning Engineer, Mathematician, Statistician, Rustacean, Collector of Memes.
+content : |
+  My name is Albert and I'm a <b>Cardiac Automation Engineer ❤️ </b> at  <b>Perspectum</b>. My goal  is to use deep learning to create new tools that can improve the healthcare industry. I am also interested in Computer Vision, Reinforcement Learning, Bayesian Statistics, and Rust.
+button:
+  label : "Let's Go"
+  link : "#skill"
+image : "images/fire_sam.png"
+
