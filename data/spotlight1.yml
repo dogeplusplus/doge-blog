@@ -1,6 +1,6 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-id: "first"
+id: "skill"
 title : "Ball Balancer - Training Unity ML Agents using PPO"
 content: |
   This is a demo of training an agent using Unity ML-Agents. This shows how to interact with environments provided by Unity, and uses a PyTorch implementation of PPO from OpenAI's spinning up library, instead of using <code>mlagents-learn</code> directly. There is some parallelisation of environments using MPI which allows for faster training.
