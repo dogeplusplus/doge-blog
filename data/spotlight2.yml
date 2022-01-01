@@ -2,7 +2,7 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Seafood Distillation - CNN Model Distillation for Seafood Image Classification"
 content: |
-  Basic PyTorch demonstration of how to perform model distillation using the KL-divergence loss term.
+  PyTorch demonstration of how to perform model distillation using the KL-divergence loss term. An example of student teacher networks.
 button:
   label: "Learn More"
   link: "https://github.com/dogeplusplus/seafood-distillation"
