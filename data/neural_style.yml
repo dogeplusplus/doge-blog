@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Neural Style - Image Stylization by Mixing Representations"
+content: |
+  <code>neural-style</code> makes use of a pre-trained model from TensorFlow Hub. By uploading a content image and a style one can create funky art. This is currently deployed as a HuggingFace space and can be found <a href="https://huggingface.co/spaces/dogeplusplus/neural-style">here.</a>
+button:
+  label: "Learn More"
+  link: "https://github.com/dogeplusplus/neural-style"
+image: "images/neural_style.png"
