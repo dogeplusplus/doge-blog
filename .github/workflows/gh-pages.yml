@@ -18,6 +18,9 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           lfs: true
 
+      - name: Checkout LFS objects
+        run: git lfs checkout
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
