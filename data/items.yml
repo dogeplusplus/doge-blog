@@ -11,7 +11,7 @@ items:
 
   # feature item loop
   - name : "Reinforcement Learning"
-    content : "Appying SOTA RL algorithms to various domains for fun. Trained agents to interact with environments like OpenAI Gym, Unity ML-Agents and more recently MuJoCo to perform continuous control."
+    content : "Applied SOTA RL algorithms to various domains for fun. Trained agents to interact with environments like OpenAI Gym, Unity ML-Agents and more recently MuJoCo to perform continuous control."
     style : "solid style2 major fa-robot"
 
   # feature item loop
@@ -21,7 +21,7 @@ items:
 
   # feature item loop
   - name : "Data Engineering"
-    content : "Worked as a Data Analyst making ETL pipelines for finance using the Microsoft SQL BI stack. Built data pipelines to analyse microscopy telemetry data using BigQuery on GCP. Implemented data infrastructure for MRI DICOM images using Terraform and AWS."
+    content : "Worked as a Data Analyst making ETL pipelines for finance using the Microsoft SQL BI stack. Built data pipelines to analyse microscopy telemetry data using BigQuery on GCP. Implemented data infrastructure for DICOM images using Terraform and AWS."
     style : "solid style2 major fa-database"
 
   # feature item loop
