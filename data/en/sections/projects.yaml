@@ -82,7 +82,7 @@ projects:
   tags: ["rust", "computer-vision"]
 
 - name: haiku-transformer
-  repo: https://github.com/dogeplusplus/termivision
+  repo: https://github.com/dogeplusplus/haiku-transformer
   role: Developer
   summary: Implementation of Vision Transformer in Haiku and JAX.
   tags: ["computer-vision", "jax", "transformers", "classification"]
