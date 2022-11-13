@@ -1,0 +1,95 @@
+section:
+  name: Projects # Title of section (default: "")
+  id: projects # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 3 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/projects.html 
+
+buttons:
+- name: All
+  filter: "all"
+- name: PyTorch
+  filter: "pytorch"
+- name: TensorFlow
+  filter: "tensorflow"
+- name: JAX
+  filter: "jax"
+- name: Rust
+  filter: "rust"
+- name: Computer Vision
+  filter: "computer-vision"
+- name: Reinforcement Learning
+  filter: "reinforcement-learning"
+- name: Audio
+  filter: "audio"
+
+projects:
+- name: ball-balancer
+  repo: https://github.com/dogeplusplus/ball-balancer
+  role: Developer
+  logo: images/ball_balancer.gif
+  summary: Training RL agents using Unity ML-Agents. This shows how to interact with environments provided by Unity, and uses a PyTorch implementation of PPO from OpenAI's spinning up library, instead of using mlagents-learn directly. There is some parallelisation of environments using MPI which allows for faster training.
+  tags: ["reinforcement-learning", "pytorch", "continuous-control"]
+
+- name: cat-alan
+  repo: https://github.com/dogeplusplus/cat-alan
+  role: Developer
+  logo: images/catalan_demo.png
+  summary: Streamlit app that takes uploaded audio/video of cat sounds, and tries to categorise them into 1 of 10 emotions. The model is based off the M5 architecture trained on roughly 3000 labelled cat audio clips. A link to the deployment can be found here https://share.streamlit.io/dogeplusplus/cat-alan/main/app.py.
+  tags: ["audio", "pytorch", "classification"]
+
+- name: flax-u2net
+  repo: https://github.com/dogeplusplus/flax-u2net
+  role: Developer
+  logo: images/u2net_example.png
+  summary: An implementation of U2-Net using Flax and JAX to detect visually distinctive image regions from the perspective of the human visual system.
+  tags: ["computer-vision", "jax", "salient-object-detection"]
+
+- name: neural-style 
+  repo: https://github.com/dogeplusplus/neural-style
+  role: Developer
+  logo: images/neural_style.png
+  summary: neural-style makes use of a pre-trained model from TensorFlow Hub. By uploading a content image and a style one can create funky art. This is currently deployed as a HuggingFace space and can be found here https://huggingface.co/spaces/dogeplusplus/neural-style.
+  tags: ["computer-vision", "tensorflow", "streamlit", "style-transfer"]
+
+- name: torch-actor-critic
+  repo: https://github.com/dogeplusplus/torch-actor-critic
+  role: Developer
+  logo: images/mujoco_demo.gif
+  summary: PyTorch implementation of Soft Actor-Critic to play around with MuJoCo environments. Includes mlflow logging to record experiments and explore different model/algorithm hyperparameters.
+  tags: ["reinforcement-learning", "pytorch", "mujoco", "mlflow"]
+
+- name: seafood-distillation
+  repo: https://github.com/dogeplusplus/seafood-distillation
+  role: Developer
+  logo: images/sea_bream.jpg
+  summary: PyTorch demonstration of how to perform model distillation using the KL-divergence loss term. An example of student teacher networks.
+  tags: ["computer-vision", "pytorch", "knowledge-distillation", "classification"]
+
+- name: cyclegan-cat
+  repo: https://github.com/dogeplusplus/cyclegan-cat
+  role: Developer
+  logo: images/tabby2tortie_demo.png
+  summary: Convert the fur coats of tabby cats to tortoiseshell and vice versa using a TensorFlow implementation of Cycle-GAN. Features include support for UNet and ResNet generators, saving/retraining, Tensorboard logging, and visualisation with Streamlit. I use DVC for dataset versioning, and Prefect flows to perform batch jobs such as scraping images using the PetFinder API or serializing to TFRecords.
+  tags: ["computer-vision", "tensorflow", "gans", "style-transfer"]
+
+- name: termivision
+  repo: https://github.com/dogeplusplus/termivision
+  role: Developer
+  logo: images/woodcock.gif
+  summary: Rust video player that prints directly to the terminal. Using the ansi_term create one can print coloured pixels. termivision shows how to use the OpenCV rust bindings to parse image/video data and transform them into coloured text.
+  tags: ["rust", "computer-vision"]
+
+- name: haiku-transformer
+  repo: https://github.com/dogeplusplus/termivision
+  role: Developer
+  summary: Implementation of Vision Transformer in Haiku and JAX.
+  tags: ["computer-vision", "jax", "transformers", "classification"]
+
+- name: group-unet
+  repo: https://github.com/dogeplusplus/group-unet
+  role: Developer
+  summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
+  tags: ["computer-vision", "pytorch", "weights-and-biases", "semantic-segmentation", "group-theory"]
+  

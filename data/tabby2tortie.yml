@@ -1,9 +1,0 @@
-####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-title : "CycleGAN Cat - Style transfer of Mackerel Tabby to Tortoiseshell Cats"
-content: |
-  Convert the fur coats of tabby cats to tortoiseshell and vice versa using a TensorFlow implementation of Cycle-GAN. Features include support for UNet and ResNet generators, saving/retraining, Tensorboard logging, and visualisation with Streamlit. I use DVC for dataset versioning, and Prefect flows to perform batch jobs such as scraping images using the PetFinder API or serializing to TFRecords.
-button:
-  label: "Learn More"
-  link: "https://github.com/dogeplusplus/cyclegan-cat"
-image: "images/tabby2tortie_demo.png"

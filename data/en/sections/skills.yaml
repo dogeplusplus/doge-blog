@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Machine Learning 
+  summary: "Over 4 years of experience developing and deploying machine learning models for Computer Vision with TensorFlow and PyTorch. Recently experimenting with the JAX ecosystem through personal projects."
+
+- name: MLOps
+  summary: "Deployed cloud infrastructure for machine learning experiment tracking using Mlflow. Explored tools to improve productivity of Data Scientists such as DVC, MetaFlow, and Weights and Biases." 
+
+- name: Cloud Computing
+  summary: "Built data pipelines with containerised machine learning models and serverless data pre-processing of DICOM data in AWS. Created ETL pipelines to collect microscope telemetry data into dashboards using GCP services."
+
+- name: Data Engineering
+  summary: "Formerly a Data Analyst making ETL pipelines for finance using the Microsoft SQL BI stack. Ran automated routines that calculated features and performed customer segmentation."
+
+- name: Mathematics & Statistics
+  summary: "Studied Mathematics with a focus in Analysis, Mathematical Statistics and Probability Theory. Currently interested in Bayesian Statistics and Topological Data Analysis."
+
+- name: Rust
+  summary: "Interest in creating highly performant and memory safe applications with Rust. Worked on a few personal projects in my free time."

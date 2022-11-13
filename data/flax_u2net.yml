@@ -1,9 +1,0 @@
-####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-title : "Flax U-2 Net - Salient Object Detection"
-content: |
-  An implementation of U2-Net using <code>Flax</code> and <code>JAX</code> to detect visually distinctive image regions from the perspective of the human visual system.
-button:
-  label: "Learn More"
-  link: "https://github.com/dogeplusplus/flax-u2net"
-image: "images/u2net_example.png"

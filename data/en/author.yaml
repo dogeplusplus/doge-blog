@@ -1,0 +1,13 @@
+# some information about you
+name: "Albert Chung"
+nickname: dogeplusplus
+image: "images/github_avatar.jpeg"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "albertswchung[at]gmail[dot]com"
+  phone: "+44 7919986840"
+
+# some summary about what you do
+summary:
+  - Machine Learning Engineer in the Life Sciences

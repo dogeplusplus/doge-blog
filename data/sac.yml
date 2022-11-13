@@ -1,9 +1,0 @@
-####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Torch Actor-Critic - Soft Actor-Crtic Applied to MuJoCo"
-content: |
-  <code>torch-actor-critic</code> is a PyTorch implementation of Soft Actor-Critic to play around with <code>MuJoCo</code> environments. Includes <code>mlflow</code> logging to record experiments and explore different model/algorithm hyperparameters. Also includes some wrapper code to interact with the <code>dm_control</code> wall runner environment (WIP), and CNN-based actor networks that incorporate image observations.
-button:
-  label: "Learn More"
-  link: "https://github.com/dogeplusplus/torch-actor-critic"
-image: "images/mujoco_demo.gif"
