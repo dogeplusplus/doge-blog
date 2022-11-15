@@ -2,6 +2,7 @@
 title: "Equivariance Properties in Machine Learning"
 date: 2022-11-14T00:00:00+01:00
 description: Testing models for equivariance properties
+hero: images/hero.svg
 menu:
   sidebar:
     identifier: equivariance
