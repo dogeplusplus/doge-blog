@@ -32,6 +32,6 @@ params:
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
-  background: images/fire_sam.png
+  background: images/homepage_image.png
   newsletter:
     enable: false
