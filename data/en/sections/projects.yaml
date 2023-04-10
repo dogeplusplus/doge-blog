@@ -93,3 +93,8 @@ projects:
   summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
   tags: ["computer-vision", "pytorch", "weights-and-biases", "semantic-segmentation", "group-theory"]
   
+- name: sam-at-home 
+  repo: https://github.com/dogeplusplus/sam-at-home
+  role: Developer
+  summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
+  tags: ["computer-vision", "pytorch", "semantic-segmentation", "gradio"]
