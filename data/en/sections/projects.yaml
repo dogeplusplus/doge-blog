@@ -55,6 +55,13 @@ projects:
   summary: Streamlit app that takes uploaded audio/video of cat sounds, and tries to categorise them into 1 of 10 emotions. The model is based off the M5 architecture trained on roughly 3000 labelled cat audio clips. A link to the deployment can be found here https://share.streamlit.io/dogeplusplus/cat-alan/main/app.py.
   tags: ["audio", "pytorch", "classification"]
 
+- name: dreambooth-hackathon
+  repo: https://github.com/dogeplusplus/dreambooth-hackathon
+  role: Developer
+  logo: images/dreambooth-jaffa.png
+  summary: A submission to the HuggingFace Dreambooth Hackathon. Generate images of Jaffa Cakes using a fine-tuned Stable Diffusion.
+  tags: ["computer-vision", "huggingface", "diffusion"]
+
 - name: flax-u2net
   repo: https://github.com/dogeplusplus/flax-u2net
   role: Developer
