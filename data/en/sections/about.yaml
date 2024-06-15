@@ -7,14 +7,15 @@ section:
   template: sections/about.html 
 
 summary: 
-  After studying Mathematics at the University of Warwick, I started my career in data as a consultant, helping clients build data pipelines to make sense of their data.
-  
+  With a background in Mathematics from the University of Warwick, I specialize in machine learning applications across the life sciences.
 
-  I grew a passion for machine learning and became a Deep Learning Engineer where I performed research, developed infrastructure, and built tools that accelerate the research throughput of biologists. Now I am scaling up machine learning pipelines that increase the throughput and accuracy of analysing medical images, which have applications in supporting medical diagnosis and drug development.
-  
+  My career began in data consultancy, where I built data pipelines for clients.
 
-  My interests span a range of domains in Machine Learning that try to solve some of the biggest problems faced in our world. From model development to operations, from research to system design, I help bridge the gap between machine learning research and engineering.
+  As a Machine Learning Engineer, I have conducted research, developed infrastructure, and created tools to enhance the research productivity of biologists.
 
+  Currently, I am developing and scaling machine learning models for the sequence and structure analysis of small molecules and proteins, which are critical for drug discovery and development.
+
+  My expertise spans the full software development lifecycle, from model development to MLOps, bridging the gap between machine learning research and engineering to solve critical problems.
 socialLinks:
 - name: Github
   icon: "fab fa-github"

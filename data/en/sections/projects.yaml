@@ -19,12 +19,28 @@ buttons:
   filter: "rust"
 - name: Computer Vision
   filter: "computer-vision"
+- name: Natural Language Processing
+  filter: "nlp"
 - name: Reinforcement Learning
   filter: "reinforcement-learning"
 - name: Audio
   filter: "audio"
 
 projects:
+- name: sam-at-home 
+  repo: https://github.com/dogeplusplus/sam-at-home
+  role: Developer
+  logo: images/sam_at_home.png
+  summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
+  tags: ["computer-vision", "pytorch", "semantic-segmentation", "gradio"]
+
+- name: pensum-perdiscere
+  repo: https://github.com/dogeplusplus/pensum-perdiscere
+  role: Developer
+  logo: images/pepe.png
+  summary: An LLM-powered flash card generation for studying any topic of interest using Claude-2. Submission to the 2023 Anthropic London Hackathon.
+  tags: ["nlp", "transformers", "generative", "huggingface", "langchain"]
+
 - name: ball-balancer
   repo: https://github.com/dogeplusplus/ball-balancer
   role: Developer
@@ -92,9 +108,16 @@ projects:
   role: Developer
   summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
   tags: ["computer-vision", "pytorch", "weights-and-biases", "semantic-segmentation", "group-theory"]
-  
-- name: sam-at-home 
-  repo: https://github.com/dogeplusplus/sam-at-home
+
+- name: rust-tracer
+  repo: https://github.com/dogeplusplus/rust-tracer
   role: Developer
-  summary: An exploration of Group Equivariant convolutions applied to image segmentation, with Wandb for experiment tracking.
-  tags: ["computer-vision", "pytorch", "semantic-segmentation", "gradio"]
+  logo: images/ray_tracer.jpeg
+  summary: Ray tracer challenge using Rust
+  tags: ["rust", "computer-vision", "ray-tracing", "graphics"]
+
+- name: ascii-art
+  repo: https://github.com/dogeplusplus/ascii-art
+  role: Developer
+  summary: Convert images to ASCII art using Rust
+  tags: ["rust", "ascii-art"]
